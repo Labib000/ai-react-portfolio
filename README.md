@@ -30,7 +30,7 @@ Smaller things I care about: dark/light theme, GSAP animations, SEO meta tags, a
 
 **Backend**
 - 🐘 PHP 8.4 + Laravel 13
-- 🗄️ SQLite by default (easy to switch)
+- 🗄️ MySQL
 - 🤖 Groq API for the AI features (`openai/gpt-oss-120b`)
 - 🧭 Laravel Wayfinder for typed route helpers
 
@@ -63,20 +63,25 @@ Most of the text on the site comes from the `content/` folder, so I can update m
 
 ## 🚀 Running it locally
 
-You'll need PHP 8.4+, Composer and Node.js.
+You'll need PHP 8.4+, Composer, Node.js and a MySQL server.
 
 ```bash
 # 1. Clone
 git clone https://github.com/Labib000/ai-react-portfolio.git
 cd ai-react-portfolio
 
-# 2. Install, create .env, migrate and build assets
+# 2. Create .env and a MySQL database
+cp .env.example .env
+mysql -u root -p -e "CREATE DATABASE portfolio"
+#    then set DB_DATABASE, DB_USERNAME and DB_PASSWORD in .env
+
+# 3. Install, migrate and build assets
 composer setup
 
-# 3. Add your Groq key to .env (only needed for the AI features)
+# 4. Add your Groq key to .env (only needed for the AI features)
 #    GROQ_API_KEY=your-key-here
 
-# 4. Start the dev server
+# 5. Start the dev server
 composer dev
 ```
 
@@ -90,13 +95,16 @@ Then open [http://localhost:8000](http://localhost:8000).
 | --- | --- |
 | `APP_NAME` | Site name |
 | `APP_URL` | Base URL of the app |
-| `DB_CONNECTION` | Defaults to `sqlite` |
+| `DB_CONNECTION` | `mysql` |
+| `DB_HOST`, `DB_PORT`, `DB_DATABASE`, `DB_USERNAME`, `DB_PASSWORD` | MySQL connection details |
 | `MAIL_MAILER` | Defaults to `log`, so contact messages go to the log in dev |
 | `AI_PROVIDER` | Defaults to `groq` |
 | `GROQ_API_KEY` | Your Groq API key |
 | `GROQ_MODEL` | Defaults to `openai/gpt-oss-120b` |
 
 ## 🧪 Testing and code style
+
+Tests run against an in-memory SQLite database (see `phpunit.xml`), so they don't touch your MySQL data.
 
 ```bash
 php artisan test --compact   # run the test suite
