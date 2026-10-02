@@ -1,0 +1,35 @@
+# Labib Alam
+
+> Labib Alam (Md Labib Alam) is a full stack and Gen AI developer based in Kolkata, India. He builds Laravel and React web apps, AI chatbots and booking systems, and is open to freelance projects and full time roles. His Laravel and React work runs in production on rental and ecommerce platforms with 10,000+ monthly users.
+
+Key facts:
+- Role: Full stack developer (Laravel, React, MERN, Java Spring Boot, Gen AI)
+- Location: Kolkata, India
+- Career started: April 2025
+- Results: 40% faster API responses through query optimisation, indexing and Redis caching; 20+ modules and REST APIs shipped for rental and ecommerce platforms
+- Contact: Labib.Alam@outlook.com, +91 81004 94661 (WhatsApp available)
+- GitHub: https://github.com/Labib000
+- LinkedIn: https://www.linkedin.com/in/labib-alam-05b11424a/
+
+## Main pages
+
+- [Home](https://labibalam.in/): Overview, experience, selected work and services
+- [Services](https://labibalam.in/services): Laravel development, MERN development, Java full stack, React development, Gen AI development, AI chatbots and automation, API performance, workflows and dashboards
+- [Work](https://labibalam.in/work): Case studies of live full stack projects
+- [AI Lab](https://labibalam.in/ai-lab): A live AI chatbot demo that answers only from a business's own information
+- [Resume](https://labibalam.in/resume): Skills, experience and education
+- [Contact](https://labibalam.in/contact): Hire Labib Alam for a freelance project or a full time role
+
+## Case studies
+
+- [Cardiwan](https://labibalam.in/work/cardiwan): Luxury and sports car rental platform in Dubai (Laravel, React, MySQL, REST APIs)
+- [Zeromax Lease to Own](https://labibalam.in/work/zeromax): Lease to own car platform in the UAE (Laravel, React, MySQL)
+- [Digital Advengers](https://labibalam.in/work/digital-advengers): Dubai digital marketing agency website with a lead generation tool and a WordPress SEO blog
+- [Focus Auto](https://labibalam.in/work/focus-auto): Dubai luxury car garage site with a lead generation tool and a WordPress blog
+- [W3 Techiez](https://labibalam.in/work/w3-techiez): Learning platform for a coaching institute, with courses and learner accounts (Laravel, React)
+- [Social media console](https://labibalam.in/work/social-media-console): Team console to plan, approve and publish social media posts (Laravel, Facebook Graph API, FFmpeg)
+- [MSIT department CMS](https://labibalam.in/work/msit-cms): Content system where college departments publish pages through an approval flow (WordPress, Laravel)
+
+## Optional
+
+- [Sitemap](https://labibalam.in/sitemap.xml)

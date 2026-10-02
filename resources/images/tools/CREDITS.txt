@@ -1,0 +1,27 @@
+Tool logos used in the "Tools I work with" section.
+All logos are trademarks of their respective owners and are shown only to
+indicate tools used. Files were converted to single-colour (currentColor).
+
+Simple Icons v16.33.0 (https://simpleicons.org), CC0 1.0
+  php, laravel, react, redux, javascript, nodedotjs, express, mongodb, mysql,
+  redis, typescript, tailwindcss, springboot, claude, git, github, postman, ffmpeg,
+  langchain, huggingface, ollama
+
+Devicon v2.17.0 (https://devicon.dev), MIT License, Copyright (c) 2015 konpa
+  java (java-plain), canva (canva-original)
+
+Lobe Icons v1.95.1 (https://github.com/lobehub/lobe-icons), MIT License,
+Copyright (c) 2023 LobeHub
+  openai, grok, antigravity, claudecode
+
+Font Awesome Free 7 (https://fontawesome.com), icons CC BY 4.0
+  rag (book-open), vectordb (database), aiagents (robot),
+  prompt (wand-magic-sparkles)
+
+Pinecone (https://www.pinecone.io)
+  pinecone.svg: the cone mark taken from the site's header logo.
+
+Visily (https://www.visily.ai)
+  visily.png: single-colour mask made from the site's public favicon.
+
+MIT License text: https://opensource.org/license/mit
